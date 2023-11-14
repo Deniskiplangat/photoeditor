@@ -124,13 +124,129 @@ body{
 
 /* this is where our editing magic is supposed to happen, hopefully I can code the logic today */
 .maincontainer{
+    display: flex;
+    justify-content: space-between;
     margin-top: 100px ;
     width: 96%;
     height: 65%;
     /* background-color: gold; */
-    border: 2px solid black;
+    
     border-radius: 5px;
     z-index: 1000;
+}
+.maincontainer .settings{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    border: 5px;
+    border-radius: 5px;
+    box-shadow:5px 2px 8px rgba(20, 20, 20, 0.5),
+    -5px -2px 8px rgba(20, 20, 20, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.maincontainer .imageview{
+    width: 57%;
+    height: 100%;
+    
+    border: 5px;
+    border-radius: 5px;
+    box-shadow:5px 2px 8px rgba(20, 20, 20, 0.5),
+    -5px -2px 8px rgba(20, 20, 20, 0.5);
+}
+.maincontainer .settings .filtertitle{
+    position: absolute;
+    left: 20px;
+    top: 2%;
+    font-size: 1.5em;
+}
+
+.threesettingscontainers{
+    margin-top: 12%;
+    height: 82%;
+    width: 90%;
+    /* background-color: rgba(255, 0, 0,0.2); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.threesettingscontainers .filterlist{
+    border: 1px solid black;
+    width: 95%;
+    height: 35%;
+}
+.threesettingscontainers .scrollvalue{
+    border: 1px solid black;
+    width: 95%;
+    height: 20%;
+}
+.threesettingscontainers .imagechange{
+    
+    
+    border: 1px solid black;
+    width: 95%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.threesettingscontainers .imagechange .changetitle{
+    position: absolute;
+    font-size: 1.5em;
+    bottom: 30%;
+    left: 20px;
+}
+.rotateleft{
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotateleft:hover{
+    cursor: pointer;
+    background-color: rgba(39, 37, 37, 0.1);
+}
+
+.rotateright{
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotateright:hover{
+    cursor: pointer;
+    background-color: rgba(39, 37, 37, 0.1);
+}
+.mirrorup{
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mirrorup:hover{
+    cursor: pointer;
+    background-color: rgba(39, 37, 37, 0.1);
+}
+.mirrorside{
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mirrorside:hover{
+    cursor: pointer;
+    background-color: rgba(39, 37, 37, 0.1);
 }
 
 
