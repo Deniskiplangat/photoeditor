@@ -102,7 +102,7 @@ body{
 .options .saveimage:hover{
     
     background-color: rgb(5, 46, 70);
-    color: rgb(7, 216, 129);
+    color: rgb(129, 178, 211);
     border: none;
     cursor: pointer;
 }
@@ -110,7 +110,7 @@ body{
     
     background-color: rgb(173, 172, 172);
     cursor: pointer;
-    color: rgb(153, 19, 19);
+    color: rgba(19, 18, 18, 0.5);
 }
 .bottom .resetfilters:hover{
     
@@ -184,7 +184,7 @@ body{
 .threesettingscontainers .imagechange{
     
     
-    border: 1px solid black;
+    
     width: 95%;
     height: 30%;
 
