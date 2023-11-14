@@ -99,6 +99,25 @@ body{
     border-radius: 5px;
     
 }
+.options .saveimage:hover{
+    
+    background-color: rgb(5, 46, 70);
+    color: rgb(7, 216, 129);
+    border: none;
+    cursor: pointer;
+}
+.options .chooseimage:hover{
+    
+    background-color: rgb(173, 172, 172);
+    cursor: pointer;
+    color: rgb(153, 19, 19);
+}
+.bottom .resetfilters:hover{
+    
+    background-color: rgb(187, 187, 212);
+    color: rgb(68, 60, 60);
+    cursor: pointer;
+}
 
 
 
@@ -113,3 +132,45 @@ body{
     border-radius: 5px;
     z-index: 1000;
 }
+
+
+
+/* i will write media querries here as the screen is only suitable for desktop */
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        background-color: red;
+    }
+    .options .saveimage{
+        font-size: 1em;
+        
+        background-color: rgb(0, 162, 255);
+        width: 100px;
+        height: 40%;
+        
+    }
+    .options .chooseimage{
+        font-size: 0.9em;
+        
+        background-color: rgb(58, 57, 57);
+        
+        width: 100px;
+        height: 40%;
+        
+        
+    }
+    .bottom{
+        left: 5px;
+        bottom: 5px;
+    }
+    .bottom .options{
+        width: 60%;
+    }
+    .bottom .resetfilters{
+        width: 100px;
+        height: 40%;
+        font-size: 1em;
+    }
+    .container .description{
+        width: 92%;
+    }
+  }
